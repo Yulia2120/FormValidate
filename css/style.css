@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 960px;
+}
+.row {
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 12px 12px 22px rgb(187, 187, 187);
+}
+.left_img {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.form-control {
+  height: 50px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.btn-default {
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.btn-default:hover {
+  background-color: #fff;
+  border: 1px solid;
+  color: #000;
+  transition: all 0.5s ease-out;
+}
+a {
+  text-decoration: none;
+}
+.error {
+  display: block;
+  color: #f00;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+/* Sign-Up */
+.riht_img {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.formV {
+  margin-left: 130px;
+}
+
+h4 {
+  margin-top: 20px;
+  margin-left: 130px;
+}
+.img_brand {
+  margin-left: 130px;
+  width: 35%;
+}
